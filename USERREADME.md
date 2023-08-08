@@ -86,7 +86,7 @@ Just Authorize Bearer Token
 }
 ```
 
-#### DELETE USER
+`#### DELETE USER`
 ```http
   DELETE /expense-api-v1/deactivate
 ```

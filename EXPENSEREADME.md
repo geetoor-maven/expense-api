@@ -1,4 +1,5 @@
 ### Expense Module
+> [!WARNING]
 Before making a request in Expense Module, You must crete authorization bearer token in user module (login)
 
 #### CREATE EXPENSE
