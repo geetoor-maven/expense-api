@@ -20,8 +20,10 @@ To run this project, you will need to update the following Application Propertie
 `spring.datasource.password=password`
 
 ## API Reference
+
 Warning : all api must be authenticated (except login and register) with authorization:Bearer token
 
-| Module | README                           |
-|--------|----------------------------------|
-| User   | [[USERREADME.md][PlDb] ](https://github.com/geetoor-maven/expense-api/blob/master/USERREADME.md)           |
+| Module  | README                                                                                              |
+|---------|-----------------------------------------------------------------------------------------------------|
+| User    | [[USERREADME.md][PlDb] ](https://github.com/geetoor-maven/expense-api/blob/master/USERREADME.md)    |
+| Expense | [[EXPENSEREADME.md][PlDb] ](https://github.com/geetoor-maven/expense-api/blob/master/EXPENSEREADME.md) |

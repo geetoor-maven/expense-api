@@ -1,5 +1,5 @@
 ### User Module
-#### Login User
+#### LOGIN USER
 ```http
   POST /expense-api-v1/login
 ```
@@ -13,11 +13,11 @@
 ###### Response
 ```
 {
-    "email" : "test@gmail.com"    
+    "jwtToken": "token"
 }
 ```
 
-#### Register User
+#### REGISTER USER
 ```http
   POST /expense-api-v1/register
 ```
@@ -41,9 +41,9 @@
 }
 ```
 
-#### Update User
+#### UPDATE USER
 ```http
-  POST /expense-api-v1/profile
+  PUT /expense-api-v1/profile
 ```
 ###### Request
 ```
@@ -66,9 +66,9 @@
 }
 ```
 
-#### Read User
+#### READ USER
 ```http
-  POST /expense-api-v1/profile
+  GET /expense-api-v1/profile
 ```
 ###### Request
 ```
@@ -86,9 +86,9 @@ Just Authorize Bearer Token
 }
 ```
 
-#### Delete User
+#### DELETE USER
 ```http
-  POST /expense-api-v1/deactivate
+  DELETE /expense-api-v1/deactivate
 ```
 ###### Request
 ```
