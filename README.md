@@ -1,15 +1,24 @@
-# Expense-Rest-Api
-Rest API to Record Expenses
+<p align="center">
+    <h1 align="center">EXPENSE-REST-API</h1>
+    <p align="center">
+        Rest API to Record Expenses
+        <br>
+        <br>
+    </p>    
+</p>
+
 ## Technology
 - Spring Boot 3.1
 - Java 17
 - MySql
 - Data JPA
 - JsonWebToken (JWT)
-- Project Lombok
+- Lombok
 
 ## Application Properties
-To run this project, you will need to update the following Application Properties to your application.properties file
+To run this project, first of all you have to create a table
+`db/expansetracker.sql` and
+you will need to update the following Application Properties to your application.properties file
 
 `spring.datasource.url=jdbc:mysql://localhost:{yourport}/{tablename}`
 
